@@ -1,0 +1,62 @@
+@keyframes example1 {
+    from {
+        top: 400px;
+        opacity: .1;
+
+    }
+
+    to {
+        top: 280px;
+    }
+}
+
+.background {
+    width: 100vw;
+    height: 60vh;
+    min-height: 300px;
+    background-color: #1f6f8b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+
+}
+
+.a2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 280px;
+    animation-name: example1;
+    animation-duration: 0.9s;
+}
+
+.background h1 {
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.a1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.background a {
+    color: white;
+    padding-left: 0.5rem;
+
+}
+
+.page2PopProp {
+    top: 2800px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page2Footer {
+    top: 3500px;
+}

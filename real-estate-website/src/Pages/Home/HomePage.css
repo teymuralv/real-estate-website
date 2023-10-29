@@ -1,0 +1,177 @@
+@keyframes example {
+   from {
+      top: 500px;
+      opacity: .1;
+
+   }
+
+   to {
+      top: 350px;
+   }
+}
+
+.home {
+   position: relative;
+   width: 100vw;
+
+}
+
+.sidebar {
+   position: absolute;
+   z-index: 3;
+}
+
+.background-image-slider {
+   z-index: 1;
+   position: absolute;
+}
+
+.option {
+   position: absolute;
+   z-index: 2;
+   top: 760px;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+}
+
+.navbar {
+   position: absolute;
+   transform: translate(-50%, -50%);
+   left: 50%;
+   top: 8vh;
+   z-index: 2;
+
+}
+
+.search {
+   position: absolute;
+   z-index: 2;
+   left: 50%;
+   top: 350px;
+   transform: translate(-50%, -50%);
+   color: white;
+   animation-name: example;
+   animation-duration: 0.9s;
+
+}
+
+.search h1 {
+   text-align: center;
+   font-size: 38px;
+   color: white;
+
+} 
+
+.searchBlock {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.searchText {
+   width: 500px;
+   height: 55px;
+   border-style: none;
+   border-radius: 30px;
+   margin-right: 10px;
+   font-size: 16px;
+   padding-left: 30px;
+}
+
+.searchText:active,
+:hover,
+:focus {
+   outline: 0;
+   outline-offset: 0;
+}
+
+.searchText::placeholder {
+   font-size: 16px;
+}
+
+.searchButton {
+   width: 120px;
+   height: 55px;
+   color: white;
+   font-size: 16px;
+   background: linear-gradient(to right, rgb(108, 2, 153), rgb(255, 0, 123));
+   border-style: none;
+   border-radius: 30px;
+   display: inline;
+}
+
+.searchButton:hover {
+   transform: translateY(-2px);
+}
+
+.search p {
+   text-align: center;
+   width: 650px;
+   margin-top: 50px;
+}
+
+.search a {
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: underline;
+   padding-top: 40px;
+}
+
+.search a:hover {
+   text-decoration: none;
+}
+
+
+@media (max-width: 767px) {
+   .search h1 {
+      width: 490px;
+   }
+
+   .searchText {
+      width: 340px;
+   }
+
+   .search p {
+      width: 470px;
+   }
+
+}
+
+@media (max-width: 600px) {
+   .navbar {
+      width: 90vw;
+   }
+
+   .search h1, .search p{
+      width: 95vw;
+   }
+
+   .searchBlock{
+      flex-direction: column;
+      text-align: center;
+   }
+   .searchText{
+      margin-bottom: 10px;
+   }
+
+}
+
+@media (max-width: 280px) {}
+
+
+.page1PopProp {
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   top: 1200px;
+}
+
+.page1Footer {
+   position: absolute;
+   top: 2000px;
+
+}

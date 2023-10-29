@@ -10,7 +10,7 @@ import ServicesPage from './Pages/Services/ServicesPage';
 function App() {
 
   return (
-    <div>
+    <>
       <Routes>
         <Route path="/" element={<HomePage />} /> 
         <Route path="/about" element={<AboutPage />} />
@@ -18,7 +18,7 @@ function App() {
         <Route path="/properties" element={<PropertiesPage />} />
         <Route path="/services" element={<ServicesPage />} />
       </Routes>
-    </div>
+    </>
   )
 }
 export default App

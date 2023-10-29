@@ -3,11 +3,9 @@
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 15px 30px -15px;
     padding: 20px 30px;
-    margin-top: 20px;
-    width: 1236px;
-    height: 80px;
+    width: 1296px;
+    height: 10vh;
 
 }
 
@@ -45,17 +43,25 @@
     display: block;
     flex-direction: column;
     justify-content: space-between;
+    position: absolute;
     width: 2.25rem;
     height: 2rem;
-
+    right: 2rem;
+    cursor: pointer;
 }
 
 .menu span {
-    height: 0.4rem;
-    width: 100%;
-    background-color: red;
-    border-radius: 0.2rem;
+    height: 0.15rem;
+    width: 28px;
+    margin-bottom: 5px;
+    background-color: black;
+    border-radius: 1rem;
+    
 
+}
+.menu:hover span{
+    background-color: #1f6f8b; 
+  
 }
 
 @media (max-width: 1400px) {
@@ -105,7 +111,7 @@
 }
 @media (max-width: 600px) {
     .navbar {
-        width: 90vh;
+        width: 90vw;
     }
 
 }

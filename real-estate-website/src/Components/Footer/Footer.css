@@ -1,0 +1,149 @@
+.mainFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: #efefef;
+    width: 100vw;
+    height: 75vh;
+}
+
+.footer p {
+    color: #1f6f8b;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+
+.footer li {
+    color: #777;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgba(31, 111, 139, 0.1);
+}
+
+.up {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+}
+
+.up p {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.up div {
+    color: white;
+    background: linear-gradient(to right, rgb(108, 2, 153), rgb(255, 0, 123));
+    border-radius: 30px;
+    font-size: larger;
+    padding: 18px 16px;
+}
+
+.up div:hover {
+    box-shadow: 0px 3px 20px 3px rgb(154, 154, 154);
+    transform: translateY(-3px);
+
+}
+
+.down {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #efefef;
+
+}
+
+.down ul {
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.down li:hover{
+    color: #1f6f8b;
+    text-decoration-color: #1f6f8b;
+
+}
+
+.div1,
+.div2,
+.div3 {
+    width: 416px;
+
+
+}
+
+.div1 ul {
+    padding-top: 25px;
+}
+
+.list {
+    display: flex;
+}
+
+.list1 {
+    margin-right: 80px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: #cccccc;
+    border-radius: 40%;
+    margin-right: 3px;
+}
+
+.icons img, .icons a {
+    width: 15px;
+    height: 15px;
+
+}
+
+.icons div:hover {
+    box-shadow: 0px 7px 30px 7px rgb(218, 218, 218);
+    background-color: #1f6f8b;
+    transform: translateY(-6px);
+
+
+}
+
+@media (max-width: 800px) {
+
+    .down {
+        flex-direction: column;
+        padding-left: 50px;
+
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .up p {
+        width: 420px;
+    }
+}
+@media (max-width: 400px) {
+
+    .up p {
+        width: 95vw;
+    }
+}
