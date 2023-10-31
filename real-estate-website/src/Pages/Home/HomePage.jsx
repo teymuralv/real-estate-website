@@ -3,6 +3,8 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import Option from '../../Components/Option/Option';
 import PopProp from '../../Components/PopProp/PopProp';
+import Agents from '../../Components/OurAgents/Agents';
+import DreamHome from '../../Components/DreamHome/dreamHome';
 import BackgroundImageSlider from "../../Components/BackgroundSlider/BackgroundImageSlider";
 function HomePage() {
   return (
@@ -33,8 +35,11 @@ function HomePage() {
         <BackgroundImageSlider />
         <Option />
       </div>
-      <div className='page1PopProp'><PopProp /></div>
-      <div className='page1Footer'><Footer /></div>
+      <div className='homePopProp'><PopProp /></div>
+      <div className='homeDreamHome'><DreamHome /></div>
+      <div className='homeFooter'><Footer /></div>
+      <div className='homeAgents'><Agents /></div>
+
 
 
 

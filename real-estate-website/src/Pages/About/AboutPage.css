@@ -1,14 +1,16 @@
 @keyframes example1 {
     from {
-       top: 400px;
-       opacity: .1;
- 
+        top: 400px;
+        opacity: .1;
+
     }
- 
+
     to {
-       top: 280px;
+        top: 280px;
     }
- }.background {
+}
+
+.background {
     width: 100vw;
     height: 60vh;
     min-height: 300px;
@@ -18,9 +20,10 @@
     flex-direction: column;
     text-align: center;
     display: flex;
-    
+
 }
-.a2{
+
+.a2 {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -28,6 +31,7 @@
     animation-name: example1;
     animation-duration: 0.9s;
 }
+
 .background h1 {
     font-size: 38px;
     margin-bottom: 30px;
@@ -45,3 +49,32 @@
     padding-left: 0.5rem;
 
 }
+
+.aboutDreamHome {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 900px;
+}
+
+.aboutFooter {
+    position: absolute;
+    top: 1400px;
+}
+
+@media (max-width: 991px) {
+    .aboutDreamHome {
+        top: 1300px;
+
+    }
+    .aboutFooter {
+        top: 2000px;
+    }
+
+}
+@media (max-width: 767px) {
+    .aboutFooter {
+        top: 2100px;
+    }
+
+} 

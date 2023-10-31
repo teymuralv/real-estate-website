@@ -1,3 +1,5 @@
+
+
 .firstDiv,
 .secondDiv {
     display: flex;
@@ -38,9 +40,10 @@
 }
 
 @media (max-width: 991px) {
-    .option{
-        margin-top: 95px;
+    .option {
+        margin-top: 0px;
     }
+
     .box {
         width: 336px;
 
@@ -52,12 +55,14 @@
     }
 
 }
+
 @media (max-width: 767px) {
     .box {
         width: 246px;
     }
 
 }
+
 @media (max-width: 600px) {
     .box {
         width: 40vw;

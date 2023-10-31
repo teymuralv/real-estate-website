@@ -54,6 +54,8 @@ function Navbar() {
           </ul>
         </div>
       </div>
+      <Sidebar open={open} setOpen={setOpen} menuItems={linkItems} handleClick={handleOpenClick}/>
+
     </>
   );
 }

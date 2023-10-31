@@ -16,13 +16,16 @@
 
 }
 
-.cards1{
+.cards1 {
     display: flex;
     flex-wrap: wrap;
-    
+    justify-content: center;
+  
+
 }
+
 .card1 {
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05) ;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
     margin-bottom: 30px;
     margin-left: 12px;
     margin-right: 12px;
@@ -68,11 +71,13 @@
     align-items: center;
     padding-right: 20px;
 }
-.number{
+
+.number {
     display: flex;
     justify-content: center;
     margin-top: 60px;
 }
+
 .number div {
     width: 40px;
     height: 40px;
@@ -84,12 +89,16 @@
     text-align: center;
     margin-right: 5px;
 }
-.number div:hover{
+
+.number div:hover {
     background: #1f6f8b;
     color: white;
 }
 
-@media (max-width:991px) {
-    
+@media (max-width:997px) {
 
+    .card1 {
+        width: 90vw;
+    
+    }
 }

@@ -2,6 +2,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import { Link } from "react-router-dom";
 import "./ServicesPage.css"
+import Agents from "../../Components/OurAgents/Agents";
 
 
 
@@ -19,9 +20,10 @@ function ServicesPage() {
           </div>
 
         </div>
-
-      </div> 
-        <Footer />
+        
+      </div>
+      <div className="ServicesAgents"><Agents /></div> 
+      <div className="ServicesFooter"><Footer /></div>
       </div>
     );
   }

@@ -29,10 +29,17 @@
 .option {
    position: absolute;
    z-index: 2;
-   top: 760px;
    left: 50%;
    transform: translate(-50%, -50%);
    display: flex;
+
+   opacity: 0;
+   top: 115vh;
+   transition: opacity 0.5s, transform 0.5s;
+}
+.option.visible {
+   opacity: 1;
+   top: 105vh;
 }
 
 .navbar {
@@ -48,7 +55,7 @@
    position: absolute;
    z-index: 2;
    left: 50%;
-   top: 350px;
+   top: 50vh;
    transform: translate(-50%, -50%);
    color: white;
    animation-name: example;
@@ -126,6 +133,50 @@
 }
 
 
+.homePopProp {
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   top: 1150px;
+}
+.homeDreamHome{
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   top: 2100px;
+} 
+.homeAgents {
+   position: absolute;
+   top: 2600px;
+}
+.homeFooter {
+   position: absolute;
+   top: 3300px;
+}
+
+@media (max-width: 991px) {
+   .option{
+      top: 115vh;
+   }
+   .homePopProp { 
+      top: 1300px;
+   }
+   .homeDreamHome{
+      top: 2750px;
+   }
+   .homeAgents{
+      top: 3600px
+
+   }
+   .homeFooter {
+      top: 5150px;
+   
+   }
+   
+}
+
+
+
 @media (max-width: 767px) {
    .search h1 {
       width: 490px;
@@ -153,25 +204,42 @@
    .searchBlock{
       flex-direction: column;
       text-align: center;
+      width: 100vw;
    }
    .searchText{
       margin-bottom: 10px;
    }
+   
 
 }
-
-@media (max-width: 280px) {}
-
-
-.page1PopProp {
-   position: absolute;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   top: 1200px;
+@media (max-width:415px) {
+   .homePopProp { 
+      top: 1400px;
+   }
+   .homeDreamHome{
+      top: 2850px;
+   }
+   .homeFooter {
+      top: 3650px;
+   
+   }
 }
 
-.page1Footer {
-   position: absolute;
-   top: 2000px;
-
+@media (max-width: 376px) {
+   .option.visible {
+      top: 110vh;
+  }
+   .homePopProp { 
+      top: 1200px;
+   }
+   .homeDreamHome{
+      top: 2650px;
+   }
+   .homeFooter {
+      top: 3450px;
+   
+   }
 }
+
+
+

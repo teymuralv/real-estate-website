@@ -1,0 +1,101 @@
+.agents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 700px;
+    background-color: #f8f9fa;
+}
+
+.agentsUp {
+    text-align: center;
+    width: 660px;
+}
+
+.agentsUp h1 {
+    color: #1f6f8b;
+}
+
+.agentsUp p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.agentsDown {
+    display: flex;
+    justify-content: center;
+
+}
+.agentsDown h3 {
+ margin-bottom: 0px;
+ font-weight: 400px;
+}
+.p1 {
+    color: #888888;
+    margin-top: 0px;
+}
+.p2 {
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.cardName {
+    width: 416px;
+    height: 325px;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 70px;
+}
+
+
+.photo {
+    width: 90px;
+    height: 90px;
+    transform: translateY(-40px);
+    border-radius: 50%;
+}
+
+.iconsz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsz div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: #1f6f8b;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.iconsz img,
+.icons a {
+    width: 15px;
+    height: 15px;
+}
+
+.iconsz div:hover {
+    box-shadow: 0px 7px 30px 7px rgb(218, 218, 218);
+    background-color: #1f6f8b;
+    transform: translateY(-6px);
+}
+
+@media (max-width: 991px) {
+    .agents {
+        height: 1550px;
+    }
+    .agentsDown{
+        flex-direction: column;
+    }
+}
+@media (max-width: 700px) {
+    .agentsUp {
+        width: 360px;
+    }
+}

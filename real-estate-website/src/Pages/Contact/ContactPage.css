@@ -45,3 +45,12 @@
     padding-left: 0.5rem;
 
 }
+.contactFooter{
+    position: absolute;
+    top: 1200px;
+}
+@media (max-width: 991px) {
+    .contactFooter{
+        top: 1300px;
+    }
+}

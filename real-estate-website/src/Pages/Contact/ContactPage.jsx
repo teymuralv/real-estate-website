@@ -1,6 +1,6 @@
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
-import PopProp from '../../Components/PopProp/PopProp';
+import Message from '../../Components/Message/Message';
 
 import { Link } from "react-router-dom";
 import "./ContactPage.css"
@@ -10,7 +10,7 @@ function ContactPage() {
     <div>
       <Navbar />
       <div className="background">
-        <div className="a2"> 
+        <div className="a2">
 
           <h1>CONTACT US</h1>
           <div className="a1">
@@ -20,10 +20,10 @@ function ContactPage() {
 
         </div>
 
-      </div>  
-      <PopProp/>
-    
-      <Footer />
+      </div>
+      <Message/>
+      <div className="contactFooter"><Footer /></div>
+
 
     </div>
   );

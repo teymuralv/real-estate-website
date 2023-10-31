@@ -55,7 +55,7 @@ function Footer() {
                             <li>Contact us</li>
                         </ul>
                         <div className="icons">
-                            <div className="div1"><a href="https://www.instagram.com/timaalv/"><img src={instagram} alt="instagram" /></a></div>
+                            <div><a href="https://www.instagram.com/timaalv/"><img src={instagram} alt="instagram" /></a></div>
                             <div><a href="https://www.instagram.com/timaalv/"><img src={twitter} alt="twitter" /></a></div>
                             <div><a href="https://www.instagram.com/timaalv/"><img src={facebook} alt="facebook" /></a></div>
                             <div><a href="https://www.instagram.com/timaalv/"><img src={linkedin} alt="linkedin" /></a></div>

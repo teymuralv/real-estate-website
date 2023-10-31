@@ -1,0 +1,146 @@
+.dreamHome {
+    width: 1320px;
+}
+
+
+.dreamUp1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dreamUp {
+    text-align: center;
+    width: 660px;
+}
+.dreamUp h1 {
+    color: #1f6f8b;
+}
+.dreamUp p {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 70px;
+}
+
+
+.dreamMid {
+    display: flex;
+    justify-content: space-between;
+}
+.building {
+    width: 746px;
+    height: 497px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.dreamText{
+    width: 320px;
+    height: 88px;
+    margin-left: 10px;
+}
+.dreamText p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.dreamIcon{
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dreamIcon img{
+    width: 18px;
+    height: 18px;
+}
+
+
+.counter1{
+    display: flex;
+    justify-content: space-between;
+}
+.counterNumber{
+    font-size: 40px;
+    font-weight: 700;
+    color: #1f6f8b;
+    margin-bottom: 0;
+}
+.counterText{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 1400px) {
+    .dreamHome {
+        width: 1140px;
+    }
+    .building {
+        width: 641px;
+        height: 427px;
+    }
+    .dreamUp {
+        width: 570px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .dreamHome {
+        width: 960px;
+    }
+    .building {
+        width: 536px;
+        height: 357px;
+        margin-bottom: 30px;
+    }
+    .dreamUp {
+        width: 480px;
+    }
+    .dreamText{
+        width: 200px;
+    }
+    
+}
+
+@media (max-width: 991px) {
+    .dreamMid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .counter1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .dreamHome, .dreamUp {
+        width: 720px;
+    }
+    .building {
+        width: 696px;
+        height: 464px;
+    }
+    .dreamText{
+        width: 500px;
+    }  
+}
+
+@media (max-width: 767px) {
+    .dreamHome, .dreamUp {
+        width: 540px;
+    }
+    .building {
+        width: 516px;
+        height: 344px;
+    }
+    .dreamText{
+        width: 420px;
+    } 
+    
+}
+
+@media (max-width: 600px) {
+    .dreamHome, .dreamUp, .building, .info  {
+        width: 90vw;
+    }
+   
+}

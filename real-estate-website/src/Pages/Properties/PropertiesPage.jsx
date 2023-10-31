@@ -22,8 +22,8 @@ function PropertiesPage() {
 
       </div>
       <Prop />
-      <div className="page2PopProp"><PopProp /></div>
-      <div className="page2Footer"><Footer /></div>
+      <div className="PropPopProp"><PopProp /></div>
+      <div className="propFooter"><Footer /></div>
     </div>
   );
 }
