@@ -7,7 +7,7 @@ import agent1 from "../../Assets/photo/agent1.webp";
 import agent2 from "../../Assets/photo/agent2.jpg";
 import agent3 from "../../Assets/photo/agent3.webp";
 
-
+ 
 function Agents() {
     return (
         <div className="agents">

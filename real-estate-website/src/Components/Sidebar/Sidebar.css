@@ -66,3 +66,9 @@
 .sidebar .sidebar-content ul li:hover {
     color: #1f6f8b;
 }
+@media (max-width: 991px) {
+    .sidebar.non-visible{
+        right: -500px;
+    }
+}
+

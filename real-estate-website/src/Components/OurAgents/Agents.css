@@ -76,6 +76,9 @@
 
 .iconsz img,
 .icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 15px;
     height: 15px;
 }
